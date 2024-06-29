@@ -5,6 +5,8 @@
 
 .container-1 {
   background-color: #1f2937;
+  padding-left: 390px;
+  padding-right: 390px;
 }
 
 ul {
@@ -62,11 +64,11 @@ a {
   color: #f9faf8;
 }
 
-.container-4 button {
+/* .container-1 button {
   background-color: #3882f6;
   color: #f9faf8;
-  padding: 8px 16px;
-}
+  padding: 4px 20px;
+} */
 
 .footer {
   background-color: #1f2937;
@@ -118,7 +120,7 @@ a {
 }
 
 .hero button {
-  padding: 8px 16px;
+  padding: 4px 20px;
   border: none;
   border-radius: 6px;
   font-weight: 700;
@@ -140,4 +142,52 @@ a {
 .info img {
   border: 2px solid skyblue;
   border-radius: 8px;
+}
+
+.container-3 {
+  padding: 50px 390px 50px 390px;
+}
+
+.container-3 p {
+  text-align: right;
+  font-weight: 900;
+}
+
+.container-3 .quote {
+  text-align: left;
+  font-weight: 100;
+}
+
+.container-4 {
+  padding: 16px 390px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.action h4 {
+  margin-bottom: 0px;
+}
+
+.action p {
+  margin-top: 0px;
+}
+
+.container-4 button {
+  padding: 4px 20px;
+  border: 1px solid white;
+  border-radius: 6px;
+  font-weight: 700;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.footer {
+  text-align: center;
+  font-size: small;
+  padding-top: 20px;
+  padding-bottom: 2px;
 }
