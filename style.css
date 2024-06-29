@@ -72,3 +72,72 @@ a {
   background-color: #1f2937;
   color: #f9faf8;
 }
+
+.header {
+  display: flex;
+  margin-left: 50px;
+  /* margin: 0px 0px 0px 50px; */
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-right ul {
+  display: flex;
+  gap: 16px;
+  margin-right: 50px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.hero {
+  width: 400px;
+  margin-left: 50px;
+}
+
+.hero h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero p {
+  margin: 5px;
+  padding: 0px;
+}
+
+.image {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.hero button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.container-2 {
+  text-align: center;
+}
+
+.container .info {
+  width: 250px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.info img {
+  border: 2px solid skyblue;
+  border-radius: 8px;
+}
